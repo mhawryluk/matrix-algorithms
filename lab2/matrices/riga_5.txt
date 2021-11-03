@@ -1,5 +1,5 @@
-# Created by Octave 5.2.0, Tue Oct 26 13:00:11 2021 CEST <omen@omen-linux>
-# name: riga_5
+# Created by Octave 5.2.0, Wed Nov 03 10:47:02 2021 CET <omen@omen-linux>
+# name: ans
 # type: sparse matrix
 # nnz: 841
 # rows: 49
