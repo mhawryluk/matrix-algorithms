@@ -106,14 +106,14 @@ def sparse_cholesky(matrix):
                     j_row_index += 1
 
             while j_row_index < j_row_end:
-                new_icl.append(j_col)
+                new_icl.append(ICL[j_row_index])
                 new_val.append(VAL[j_row_index])
                 j_row_index += 1
 
             while top_row_index < row_end:
                 val = -vk*VAL[top_row_index]
                 if abs(val) > 1e-8:
-                    new_icl.append(top_col)
+                    new_icl.append(ICL[top_row_index])
                     new_val.append(val)
                 top_row_index += 1
 
